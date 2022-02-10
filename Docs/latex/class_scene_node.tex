@@ -1,0 +1,338 @@
+\hypertarget{class_scene_node}{}\doxysection{Scene\+Node Class Reference}
+\label{class_scene_node}\index{SceneNode@{SceneNode}}
+
+
+{\ttfamily \#include $<$Scene\+Node.\+h$>$}
+
+Inheritance diagram for Scene\+Node\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=3.000000cm]{class_scene_node}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_scene_node_acc2e7940323560ba86dad8e2d6eb6690}{Scene\+Node}} ()
+\begin{DoxyCompactList}\small\item\em Constructor. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_scene_node_a11be58b869975806f2ff5a627770fa2e}{$\sim$\+Scene\+Node}} ()
+\begin{DoxyCompactList}\small\item\em Destructor. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_scene_node_a45f8882749060b059fe26eb02f7f843b}{set\+Position}} (float x, float y, float z)
+\begin{DoxyCompactList}\small\item\em Set the node Position. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_scene_node_a3eefaae80d6a010c6612610d4a8c3332}{set\+Rotation}} (float x, float y, float z)
+\begin{DoxyCompactList}\small\item\em Set the node Rotation. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_scene_node_a753cea60b8a939a82a47258f4a51df82}{set\+Scale}} (float x, float y, float z)
+\begin{DoxyCompactList}\small\item\em Set the node Scale. \end{DoxyCompactList}\item 
+XMFLOAT3 \mbox{\hyperlink{class_scene_node_a15ff956bd49bf4b959161c41bc73ba2b}{get\+Position}} ()
+\begin{DoxyCompactList}\small\item\em Set Nodes position. \end{DoxyCompactList}\item 
+XMFLOAT3 \mbox{\hyperlink{class_scene_node_a2d6d660996ff4c3cbe25bd0643fbb74c}{get\+Rotation}} ()
+\begin{DoxyCompactList}\small\item\em Gets Nodes rotation. \end{DoxyCompactList}\item 
+XMFLOAT3 \mbox{\hyperlink{class_scene_node_ae09c8c0fc4cae71e00148bf672e3fc2a}{getscale}} ()
+\begin{DoxyCompactList}\small\item\em Gets Nodes scale. \end{DoxyCompactList}\item 
+XMFLOAT4\+X4 \mbox{\hyperlink{class_scene_node_ab4faee16c0d6211c2b4cb37456ecf762}{get\+Transform}} ()
+\begin{DoxyCompactList}\small\item\em Gets Nodes Transformation (Position, Scale, and Rotaion). \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_scene_node_a1757462f8ffa90184b579e868545530f}{Move\+To}} (float x, float y, float z)
+\begin{DoxyCompactList}\small\item\em Move Function. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+XMFLOAT3 \mbox{\hyperlink{class_scene_node_a125c3c7bba8f0221d14dabbb9667b65d}{Position}}
+\begin{DoxyCompactList}\small\item\em (Position) Position of the \mbox{\hyperlink{class_entity}{Entity}} \end{DoxyCompactList}\item 
+XMFLOAT3 \mbox{\hyperlink{class_scene_node_a6c91595aac4f7720d57131f254797196}{Rotation}}
+\begin{DoxyCompactList}\small\item\em (Rotation) Rotation of the \mbox{\hyperlink{class_entity}{Entity}} \end{DoxyCompactList}\item 
+XMFLOAT3 \mbox{\hyperlink{class_scene_node_a9403daafc00766d207440c1aaad607b8}{Scale}}
+\begin{DoxyCompactList}\small\item\em (Scale) Scale of the \mbox{\hyperlink{class_entity}{Entity}} \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+
+
+Definition at line \mbox{\hyperlink{_scene_node_8h_source_l00059}{59}} of file \mbox{\hyperlink{_scene_node_8h_source}{Scene\+Node.\+h}}.
+
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_scene_node_acc2e7940323560ba86dad8e2d6eb6690}\label{class_scene_node_acc2e7940323560ba86dad8e2d6eb6690}} 
+\index{SceneNode@{SceneNode}!SceneNode@{SceneNode}}
+\index{SceneNode@{SceneNode}!SceneNode@{SceneNode}}
+\doxysubsubsection{\texorpdfstring{SceneNode()}{SceneNode()}}
+{\footnotesize\ttfamily Scene\+Node\+::\+Scene\+Node (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Constructor. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em no} & parameters \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line \mbox{\hyperlink{_scene_node_8cpp_source_l00004}{4}} of file \mbox{\hyperlink{_scene_node_8cpp_source}{Scene\+Node.\+cpp}}.
+
+\mbox{\Hypertarget{class_scene_node_a11be58b869975806f2ff5a627770fa2e}\label{class_scene_node_a11be58b869975806f2ff5a627770fa2e}} 
+\index{SceneNode@{SceneNode}!````~SceneNode@{$\sim$SceneNode}}
+\index{````~SceneNode@{$\sim$SceneNode}!SceneNode@{SceneNode}}
+\doxysubsubsection{\texorpdfstring{$\sim$SceneNode()}{~SceneNode()}}
+{\footnotesize\ttfamily Scene\+Node\+::$\sim$\+Scene\+Node (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Destructor. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em no} & parameters \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line \mbox{\hyperlink{_scene_node_8cpp_source_l00012}{12}} of file \mbox{\hyperlink{_scene_node_8cpp_source}{Scene\+Node.\+cpp}}.
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_scene_node_a15ff956bd49bf4b959161c41bc73ba2b}\label{class_scene_node_a15ff956bd49bf4b959161c41bc73ba2b}} 
+\index{SceneNode@{SceneNode}!getPosition@{getPosition}}
+\index{getPosition@{getPosition}!SceneNode@{SceneNode}}
+\doxysubsubsection{\texorpdfstring{getPosition()}{getPosition()}}
+{\footnotesize\ttfamily XMFLOAT3 Scene\+Node\+::get\+Position (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Set Nodes position. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em no} & parameters \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+returns \mbox{\hyperlink{class_entity}{Entity}}\textquotesingle{}s position as a XMFLOAT3 reference. 
+\end{DoxyReturn}
+
+
+Definition at line \mbox{\hyperlink{_scene_node_8cpp_source_l00122}{122}} of file \mbox{\hyperlink{_scene_node_8cpp_source}{Scene\+Node.\+cpp}}.
+
+\mbox{\Hypertarget{class_scene_node_a2d6d660996ff4c3cbe25bd0643fbb74c}\label{class_scene_node_a2d6d660996ff4c3cbe25bd0643fbb74c}} 
+\index{SceneNode@{SceneNode}!getRotation@{getRotation}}
+\index{getRotation@{getRotation}!SceneNode@{SceneNode}}
+\doxysubsubsection{\texorpdfstring{getRotation()}{getRotation()}}
+{\footnotesize\ttfamily XMFLOAT3 Scene\+Node\+::get\+Rotation (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Gets Nodes rotation. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em no} & parameters \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+returns \mbox{\hyperlink{class_entity}{Entity}}\textquotesingle{}s rotation as a XMFLOAT3 reference. 
+\end{DoxyReturn}
+
+
+Definition at line \mbox{\hyperlink{_scene_node_8cpp_source_l00127}{127}} of file \mbox{\hyperlink{_scene_node_8cpp_source}{Scene\+Node.\+cpp}}.
+
+\mbox{\Hypertarget{class_scene_node_ae09c8c0fc4cae71e00148bf672e3fc2a}\label{class_scene_node_ae09c8c0fc4cae71e00148bf672e3fc2a}} 
+\index{SceneNode@{SceneNode}!getscale@{getscale}}
+\index{getscale@{getscale}!SceneNode@{SceneNode}}
+\doxysubsubsection{\texorpdfstring{getscale()}{getscale()}}
+{\footnotesize\ttfamily XMFLOAT3 Scene\+Node\+::getscale (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Gets Nodes scale. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em no} & parameters \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+returns \mbox{\hyperlink{class_entity}{Entity}}\textquotesingle{}s scale as a XMFLOAT3 reference. 
+\end{DoxyReturn}
+
+
+Definition at line \mbox{\hyperlink{_scene_node_8cpp_source_l00132}{132}} of file \mbox{\hyperlink{_scene_node_8cpp_source}{Scene\+Node.\+cpp}}.
+
+\mbox{\Hypertarget{class_scene_node_ab4faee16c0d6211c2b4cb37456ecf762}\label{class_scene_node_ab4faee16c0d6211c2b4cb37456ecf762}} 
+\index{SceneNode@{SceneNode}!getTransform@{getTransform}}
+\index{getTransform@{getTransform}!SceneNode@{SceneNode}}
+\doxysubsubsection{\texorpdfstring{getTransform()}{getTransform()}}
+{\footnotesize\ttfamily XMFLOAT4\+X4 Scene\+Node\+::get\+Transform (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Gets Nodes Transformation (Position, Scale, and Rotaion). 
+
+
+\begin{DoxyParams}{Parameters}
+{\em no} & parameters \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+returns \mbox{\hyperlink{class_entity}{Entity}}\textquotesingle{}s transformation as a XMFLOAT3 reference. 
+\end{DoxyReturn}
+
+
+Definition at line \mbox{\hyperlink{_scene_node_8cpp_source_l00137}{137}} of file \mbox{\hyperlink{_scene_node_8cpp_source}{Scene\+Node.\+cpp}}.
+
+\mbox{\Hypertarget{class_scene_node_a1757462f8ffa90184b579e868545530f}\label{class_scene_node_a1757462f8ffa90184b579e868545530f}} 
+\index{SceneNode@{SceneNode}!MoveTo@{MoveTo}}
+\index{MoveTo@{MoveTo}!SceneNode@{SceneNode}}
+\doxysubsubsection{\texorpdfstring{MoveTo()}{MoveTo()}}
+{\footnotesize\ttfamily void Scene\+Node\+::\+Move\+To (\begin{DoxyParamCaption}\item[{float}]{x,  }\item[{float}]{y,  }\item[{float}]{z }\end{DoxyParamCaption})}
+
+
+
+Move Function. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em (x)} & the x direction for the Node to move to. \\
+\hline
+{\em (y)} & the y direction for the Node to move to. \\
+\hline
+{\em (z)} & the z direction for the Node to move to. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+no return type. 
+\end{DoxyReturn}
+
+
+Definition at line \mbox{\hyperlink{_scene_node_8cpp_source_l00159}{159}} of file \mbox{\hyperlink{_scene_node_8cpp_source}{Scene\+Node.\+cpp}}.
+
+\mbox{\Hypertarget{class_scene_node_a45f8882749060b059fe26eb02f7f843b}\label{class_scene_node_a45f8882749060b059fe26eb02f7f843b}} 
+\index{SceneNode@{SceneNode}!setPosition@{setPosition}}
+\index{setPosition@{setPosition}!SceneNode@{SceneNode}}
+\doxysubsubsection{\texorpdfstring{setPosition()}{setPosition()}}
+{\footnotesize\ttfamily void Scene\+Node\+::set\+Position (\begin{DoxyParamCaption}\item[{float}]{x,  }\item[{float}]{y,  }\item[{float}]{z }\end{DoxyParamCaption})}
+
+
+
+Set the node Position. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em (x)} & Set the Node\textquotesingle{}s x position. \\
+\hline
+{\em (y)} & Set the Node\textquotesingle{}s y position. \\
+\hline
+{\em (z)} & Set the Node\textquotesingle{}s z position. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+no return type. 
+\end{DoxyReturn}
+
+
+Definition at line \mbox{\hyperlink{_scene_node_8cpp_source_l00107}{107}} of file \mbox{\hyperlink{_scene_node_8cpp_source}{Scene\+Node.\+cpp}}.
+
+\mbox{\Hypertarget{class_scene_node_a3eefaae80d6a010c6612610d4a8c3332}\label{class_scene_node_a3eefaae80d6a010c6612610d4a8c3332}} 
+\index{SceneNode@{SceneNode}!setRotation@{setRotation}}
+\index{setRotation@{setRotation}!SceneNode@{SceneNode}}
+\doxysubsubsection{\texorpdfstring{setRotation()}{setRotation()}}
+{\footnotesize\ttfamily void Scene\+Node\+::set\+Rotation (\begin{DoxyParamCaption}\item[{float}]{x,  }\item[{float}]{y,  }\item[{float}]{z }\end{DoxyParamCaption})}
+
+
+
+Set the node Rotation. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em (x)} & Set the Node\textquotesingle{}s x rotation. \\
+\hline
+{\em (y)} & Set the Node\textquotesingle{}s y rotation. \\
+\hline
+{\em (z)} & Set the Node\textquotesingle{}s z rotation. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+no return type. 
+\end{DoxyReturn}
+
+
+Definition at line \mbox{\hyperlink{_scene_node_8cpp_source_l00112}{112}} of file \mbox{\hyperlink{_scene_node_8cpp_source}{Scene\+Node.\+cpp}}.
+
+\mbox{\Hypertarget{class_scene_node_a753cea60b8a939a82a47258f4a51df82}\label{class_scene_node_a753cea60b8a939a82a47258f4a51df82}} 
+\index{SceneNode@{SceneNode}!setScale@{setScale}}
+\index{setScale@{setScale}!SceneNode@{SceneNode}}
+\doxysubsubsection{\texorpdfstring{setScale()}{setScale()}}
+{\footnotesize\ttfamily void Scene\+Node\+::set\+Scale (\begin{DoxyParamCaption}\item[{float}]{x,  }\item[{float}]{y,  }\item[{float}]{z }\end{DoxyParamCaption})}
+
+
+
+Set the node Scale. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em (x)} & Set the Node\textquotesingle{}s x scale. \\
+\hline
+{\em (y)} & Set the Node\textquotesingle{}s y scale. \\
+\hline
+{\em (z)} & Set the Node\textquotesingle{}s z scale. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+no return type. 
+\end{DoxyReturn}
+
+
+Definition at line \mbox{\hyperlink{_scene_node_8cpp_source_l00117}{117}} of file \mbox{\hyperlink{_scene_node_8cpp_source}{Scene\+Node.\+cpp}}.
+
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{class_scene_node_a125c3c7bba8f0221d14dabbb9667b65d}\label{class_scene_node_a125c3c7bba8f0221d14dabbb9667b65d}} 
+\index{SceneNode@{SceneNode}!Position@{Position}}
+\index{Position@{Position}!SceneNode@{SceneNode}}
+\doxysubsubsection{\texorpdfstring{Position}{Position}}
+{\footnotesize\ttfamily XMFLOAT3 Scene\+Node\+::\+Position}
+
+
+
+(Position) Position of the \mbox{\hyperlink{class_entity}{Entity}} 
+
+
+
+Definition at line \mbox{\hyperlink{_scene_node_8h_source_l00173}{173}} of file \mbox{\hyperlink{_scene_node_8h_source}{Scene\+Node.\+h}}.
+
+\mbox{\Hypertarget{class_scene_node_a6c91595aac4f7720d57131f254797196}\label{class_scene_node_a6c91595aac4f7720d57131f254797196}} 
+\index{SceneNode@{SceneNode}!Rotation@{Rotation}}
+\index{Rotation@{Rotation}!SceneNode@{SceneNode}}
+\doxysubsubsection{\texorpdfstring{Rotation}{Rotation}}
+{\footnotesize\ttfamily XMFLOAT3 Scene\+Node\+::\+Rotation}
+
+
+
+(Rotation) Rotation of the \mbox{\hyperlink{class_entity}{Entity}} 
+
+
+
+Definition at line \mbox{\hyperlink{_scene_node_8h_source_l00178}{178}} of file \mbox{\hyperlink{_scene_node_8h_source}{Scene\+Node.\+h}}.
+
+\mbox{\Hypertarget{class_scene_node_a9403daafc00766d207440c1aaad607b8}\label{class_scene_node_a9403daafc00766d207440c1aaad607b8}} 
+\index{SceneNode@{SceneNode}!Scale@{Scale}}
+\index{Scale@{Scale}!SceneNode@{SceneNode}}
+\doxysubsubsection{\texorpdfstring{Scale}{Scale}}
+{\footnotesize\ttfamily XMFLOAT3 Scene\+Node\+::\+Scale}
+
+
+
+(Scale) Scale of the \mbox{\hyperlink{class_entity}{Entity}} 
+
+
+
+Definition at line \mbox{\hyperlink{_scene_node_8h_source_l00183}{183}} of file \mbox{\hyperlink{_scene_node_8h_source}{Scene\+Node.\+h}}.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+A1/\mbox{\hyperlink{_scene_node_8h}{Scene\+Node.\+h}}\item 
+A1/\mbox{\hyperlink{_scene_node_8cpp}{Scene\+Node.\+cpp}}\end{DoxyCompactItemize}

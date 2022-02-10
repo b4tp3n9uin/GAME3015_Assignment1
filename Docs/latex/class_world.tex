@@ -1,0 +1,260 @@
+\hypertarget{class_world}{}\doxysection{World Class Reference}
+\label{class_world}\index{World@{World}}
+
+
+{\ttfamily \#include $<$World.\+h$>$}
+
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_world_afa39d4e6f714a7a3691ac0c656f5e8a8}{World}} ()
+\begin{DoxyCompactList}\small\item\em Constructor. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_world_a8c73fba541a5817fff65147ba47cd827}{$\sim$\+World}} ()
+\begin{DoxyCompactList}\small\item\em Destructor. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_world_a8f79652f07f99fa41b3db357c4efb895}{Init}} ()
+\begin{DoxyCompactList}\small\item\em Init function. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_world_a3294ab79d9610b2659dcb57cb5638637}{Update}} (const Game\+Timer \&gt)
+\begin{DoxyCompactList}\small\item\em Update function. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_world_a9b69dbbd736dfe1725f9facec1254a68}{Draw}} ()
+\begin{DoxyCompactList}\small\item\em Draw function. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+std\+::vector$<$ std\+::unique\+\_\+ptr$<$ \mbox{\hyperlink{class_render_item}{Render\+Item}} $>$ $>$ \mbox{\hyperlink{class_world_a964b7d003b216d98212f0343c958eca0}{All\+Render\+Items}}
+\begin{DoxyCompactList}\small\item\em (All\+Render\+Items) Vector for all the rendered items in the game world. \end{DoxyCompactList}\item 
+map$<$ std\+::string, std\+::unique\+\_\+ptr$<$ Mesh\+Geometry $>$ $>$ \mbox{\hyperlink{class_world_a298f0f7cb80c6e3d894b72e6f3d3fa68}{m\+Geometries}}
+\begin{DoxyCompactList}\small\item\em (m\+Geometries) Mesh Geometry reference. \end{DoxyCompactList}\item 
+map$<$ std\+::string, std\+::unique\+\_\+ptr$<$ Material $>$ $>$ \mbox{\hyperlink{class_world_a65a11c3143e295ae390ffe9b6f7e2f30}{m\+Materials}}
+\begin{DoxyCompactList}\small\item\em (m\+Materials) Mesh Material reference. \end{DoxyCompactList}\item 
+vector$<$ \mbox{\hyperlink{class_render_item}{Render\+Item}} $\ast$ $>$ \mbox{\hyperlink{class_world_ab65de97ada46583c572a5a9bf012b99f}{m\+Ritem\+Layer}} \mbox{[}(int) \mbox{\hyperlink{_world_8h_aa63ede3e7371d4bc358f651428d23159ae93f994f01c537c4e2f7d8528c3eb5e9}{Render\+Layer\+::\+Count}}\mbox{]}
+\begin{DoxyCompactList}\small\item\em (m\+Ritem\+Layer) Rendered Item Reference. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_player}{Player}} $\ast$ \mbox{\hyperlink{class_world_abd0317f18f0d78d0dbdf205bf3d61061}{player1}} = new \mbox{\hyperlink{class_player}{Player}}()
+\begin{DoxyCompactList}\small\item\em (player1) \mbox{\hyperlink{class_player}{Player}} class instance. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_enemy}{Enemy}} $\ast$ \mbox{\hyperlink{class_world_ac2f967170b9aceddd9cfa7de640c80a1}{enemy}}
+\begin{DoxyCompactList}\small\item\em (enemy) \mbox{\hyperlink{class_enemy}{Enemy}} class instance \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_background}{Background}} $\ast$ \mbox{\hyperlink{class_world_a432605ddfa8791dfe61e5ce12d8d22fc}{bg1}} = new \mbox{\hyperlink{class_background}{Background}}()
+\begin{DoxyCompactList}\small\item\em (bg1) \mbox{\hyperlink{class_background}{Background}} class instance. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+
+
+Definition at line \mbox{\hyperlink{_world_8h_source_l00018}{18}} of file \mbox{\hyperlink{_world_8h_source}{World.\+h}}.
+
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_world_afa39d4e6f714a7a3691ac0c656f5e8a8}\label{class_world_afa39d4e6f714a7a3691ac0c656f5e8a8}} 
+\index{World@{World}!World@{World}}
+\index{World@{World}!World@{World}}
+\doxysubsubsection{\texorpdfstring{World()}{World()}}
+{\footnotesize\ttfamily World\+::\+World (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Constructor. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em no} & parameters \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line \mbox{\hyperlink{_world_8cpp_source_l00003}{3}} of file \mbox{\hyperlink{_world_8cpp_source}{World.\+cpp}}.
+
+\mbox{\Hypertarget{class_world_a8c73fba541a5817fff65147ba47cd827}\label{class_world_a8c73fba541a5817fff65147ba47cd827}} 
+\index{World@{World}!````~World@{$\sim$World}}
+\index{````~World@{$\sim$World}!World@{World}}
+\doxysubsubsection{\texorpdfstring{$\sim$World()}{~World()}}
+{\footnotesize\ttfamily World\+::$\sim$\+World (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Destructor. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em no} & parameters \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line \mbox{\hyperlink{_world_8cpp_source_l00007}{7}} of file \mbox{\hyperlink{_world_8cpp_source}{World.\+cpp}}.
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_world_a9b69dbbd736dfe1725f9facec1254a68}\label{class_world_a9b69dbbd736dfe1725f9facec1254a68}} 
+\index{World@{World}!Draw@{Draw}}
+\index{Draw@{Draw}!World@{World}}
+\doxysubsubsection{\texorpdfstring{Draw()}{Draw()}}
+{\footnotesize\ttfamily void World\+::\+Draw (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Draw function. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em no} & parameters \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+no return type. 
+\end{DoxyReturn}
+
+
+Definition at line \mbox{\hyperlink{_world_8cpp_source_l00072}{72}} of file \mbox{\hyperlink{_world_8cpp_source}{World.\+cpp}}.
+
+\mbox{\Hypertarget{class_world_a8f79652f07f99fa41b3db357c4efb895}\label{class_world_a8f79652f07f99fa41b3db357c4efb895}} 
+\index{World@{World}!Init@{Init}}
+\index{Init@{Init}!World@{World}}
+\doxysubsubsection{\texorpdfstring{Init()}{Init()}}
+{\footnotesize\ttfamily void World\+::\+Init (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Init function. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em no} & parameters \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+no return type 
+\end{DoxyReturn}
+
+
+Definition at line \mbox{\hyperlink{_world_8cpp_source_l00014}{14}} of file \mbox{\hyperlink{_world_8cpp_source}{World.\+cpp}}.
+
+\mbox{\Hypertarget{class_world_a3294ab79d9610b2659dcb57cb5638637}\label{class_world_a3294ab79d9610b2659dcb57cb5638637}} 
+\index{World@{World}!Update@{Update}}
+\index{Update@{Update}!World@{World}}
+\doxysubsubsection{\texorpdfstring{Update()}{Update()}}
+{\footnotesize\ttfamily void World\+::\+Update (\begin{DoxyParamCaption}\item[{const Game\+Timer \&}]{gt }\end{DoxyParamCaption})}
+
+
+
+Update function. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em (gt)} & passes Game\+Timer for the update function. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+no return type. 
+\end{DoxyReturn}
+
+
+Definition at line \mbox{\hyperlink{_world_8cpp_source_l00060}{60}} of file \mbox{\hyperlink{_world_8cpp_source}{World.\+cpp}}.
+
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{class_world_a964b7d003b216d98212f0343c958eca0}\label{class_world_a964b7d003b216d98212f0343c958eca0}} 
+\index{World@{World}!AllRenderItems@{AllRenderItems}}
+\index{AllRenderItems@{AllRenderItems}!World@{World}}
+\doxysubsubsection{\texorpdfstring{AllRenderItems}{AllRenderItems}}
+{\footnotesize\ttfamily std\+::vector$<$std\+::unique\+\_\+ptr$<$\mbox{\hyperlink{class_render_item}{Render\+Item}}$>$ $>$ World\+::\+All\+Render\+Items}
+
+
+
+(All\+Render\+Items) Vector for all the rendered items in the game world. 
+
+
+
+Definition at line \mbox{\hyperlink{_world_8h_source_l00052}{52}} of file \mbox{\hyperlink{_world_8h_source}{World.\+h}}.
+
+\mbox{\Hypertarget{class_world_a432605ddfa8791dfe61e5ce12d8d22fc}\label{class_world_a432605ddfa8791dfe61e5ce12d8d22fc}} 
+\index{World@{World}!bg1@{bg1}}
+\index{bg1@{bg1}!World@{World}}
+\doxysubsubsection{\texorpdfstring{bg1}{bg1}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_background}{Background}}$\ast$ World\+::bg1 = new \mbox{\hyperlink{class_background}{Background}}()}
+
+
+
+(bg1) \mbox{\hyperlink{class_background}{Background}} class instance. 
+
+
+
+Definition at line \mbox{\hyperlink{_world_8h_source_l00084}{84}} of file \mbox{\hyperlink{_world_8h_source}{World.\+h}}.
+
+\mbox{\Hypertarget{class_world_ac2f967170b9aceddd9cfa7de640c80a1}\label{class_world_ac2f967170b9aceddd9cfa7de640c80a1}} 
+\index{World@{World}!enemy@{enemy}}
+\index{enemy@{enemy}!World@{World}}
+\doxysubsubsection{\texorpdfstring{enemy}{enemy}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_enemy}{Enemy}}$\ast$ World\+::enemy}
+
+
+
+(enemy) \mbox{\hyperlink{class_enemy}{Enemy}} class instance 
+
+
+
+Definition at line \mbox{\hyperlink{_world_8h_source_l00079}{79}} of file \mbox{\hyperlink{_world_8h_source}{World.\+h}}.
+
+\mbox{\Hypertarget{class_world_a298f0f7cb80c6e3d894b72e6f3d3fa68}\label{class_world_a298f0f7cb80c6e3d894b72e6f3d3fa68}} 
+\index{World@{World}!mGeometries@{mGeometries}}
+\index{mGeometries@{mGeometries}!World@{World}}
+\doxysubsubsection{\texorpdfstring{mGeometries}{mGeometries}}
+{\footnotesize\ttfamily map$<$std\+::string, std\+::unique\+\_\+ptr$<$Mesh\+Geometry$>$ $>$ World\+::m\+Geometries}
+
+
+
+(m\+Geometries) Mesh Geometry reference. 
+
+
+
+Definition at line \mbox{\hyperlink{_world_8h_source_l00057}{57}} of file \mbox{\hyperlink{_world_8h_source}{World.\+h}}.
+
+\mbox{\Hypertarget{class_world_a65a11c3143e295ae390ffe9b6f7e2f30}\label{class_world_a65a11c3143e295ae390ffe9b6f7e2f30}} 
+\index{World@{World}!mMaterials@{mMaterials}}
+\index{mMaterials@{mMaterials}!World@{World}}
+\doxysubsubsection{\texorpdfstring{mMaterials}{mMaterials}}
+{\footnotesize\ttfamily map$<$std\+::string, std\+::unique\+\_\+ptr$<$Material$>$ $>$ World\+::m\+Materials}
+
+
+
+(m\+Materials) Mesh Material reference. 
+
+
+
+Definition at line \mbox{\hyperlink{_world_8h_source_l00062}{62}} of file \mbox{\hyperlink{_world_8h_source}{World.\+h}}.
+
+\mbox{\Hypertarget{class_world_ab65de97ada46583c572a5a9bf012b99f}\label{class_world_ab65de97ada46583c572a5a9bf012b99f}} 
+\index{World@{World}!mRitemLayer@{mRitemLayer}}
+\index{mRitemLayer@{mRitemLayer}!World@{World}}
+\doxysubsubsection{\texorpdfstring{mRitemLayer}{mRitemLayer}}
+{\footnotesize\ttfamily vector$<$\mbox{\hyperlink{class_render_item}{Render\+Item}}$\ast$$>$ World\+::m\+Ritem\+Layer\mbox{[}(int) \mbox{\hyperlink{_world_8h_aa63ede3e7371d4bc358f651428d23159ae93f994f01c537c4e2f7d8528c3eb5e9}{Render\+Layer\+::\+Count}}\mbox{]}}
+
+
+
+(m\+Ritem\+Layer) Rendered Item Reference. 
+
+
+
+Definition at line \mbox{\hyperlink{_world_8h_source_l00067}{67}} of file \mbox{\hyperlink{_world_8h_source}{World.\+h}}.
+
+\mbox{\Hypertarget{class_world_abd0317f18f0d78d0dbdf205bf3d61061}\label{class_world_abd0317f18f0d78d0dbdf205bf3d61061}} 
+\index{World@{World}!player1@{player1}}
+\index{player1@{player1}!World@{World}}
+\doxysubsubsection{\texorpdfstring{player1}{player1}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_player}{Player}}$\ast$ World\+::player1 = new \mbox{\hyperlink{class_player}{Player}}()}
+
+
+
+(player1) \mbox{\hyperlink{class_player}{Player}} class instance. 
+
+
+
+Definition at line \mbox{\hyperlink{_world_8h_source_l00074}{74}} of file \mbox{\hyperlink{_world_8h_source}{World.\+h}}.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+A1/\mbox{\hyperlink{_world_8h}{World.\+h}}\item 
+A1/\mbox{\hyperlink{_world_8cpp}{World.\+cpp}}\end{DoxyCompactItemize}
